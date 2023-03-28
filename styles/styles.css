@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+
+}
+.info{
+    background-color: grey;
+}
+.image-wrapper{
+    display: flex;
+/*    justify-content: center;
+    padding: 25px; */
+}
+.image{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 58px;
+}
+.info__name{
+    margin-top: 25px;
+    font-size: 25px;
+    margin-left: 60px;
+    color: white;
+}
+.info__job{
+    margin-top: 10px;
+    margin-left: 93px;
+    color: white;
+}
+.data{
+   margin-top: 10px;
+   margin-left: 25px;
+}
+.info__item{
+    margin-top: 10px;
+    margin-left: 20px; 
+    padding: 10px;
+    background-color: lightgrey;
+    width: 255px;
+    color: black;
+}
+.skills,.hobbies,.social-media{
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.title{
+    font-size: 20px;
+    margin-left: 15px; 
+}
+.skills__list{
+   margin-left: 50px;
+}
+.hobbies__list{
+    margin-left: 50px;
+}
+.hobbies__item,.skills__item{
+    margin-top:10px;
+}
+.social-media__icons{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.social-media__icon{
+    margin-left: 20px;
+    margin-bottom:100px;
+}
+
+.column-left {
+      float: left;
+      width: 40%;
+      height: 100px;
+    }
+.column-right {
+    margin-left:5px;
+      width: 60%;
+      overflow: auto;
+      background-color: lightgrey;
+}
+.info__profile{
+    margin-top: 100px;
+    margin-bottom: 348px;
+    margin-right: 100px;
+    margin-left: 20px; 
+    padding: 10px;
+    background-color: lightgrey;
+    width: 455px;
+    color: black;
+    padding-right: 15px;
+}
+.profile{
+    margin-top: 50px
+}
+.experience__list{
+    margin-left: 30px;
+}
+.education__list{
+    margin-left: 30px;
+}
+.languages__list{
+    margin-left: 30px;
+}
+.experience__item,.education__item,.languages__item{
+    margin-top:10px;
+}
+.info__profile,.info__education,.info__languages,.info__experience{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.profile{
+    padding: 10px;
+    margin-left: 10px;
+}
+.p{
+    margin-top: 50px;
+    padding: 10px;
+}
+.p2{
+    margin-top:50px;
+    margin-top: 100px;
+}
