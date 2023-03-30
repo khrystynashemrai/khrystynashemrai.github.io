@@ -69,13 +69,13 @@
 }
 .social-media__icon{
     margin-left: 20px;
-    margin-bottom:100px;
+    margin-bottom: 10px;
 }
 
 .column-left {
       float: left;
       width: 40%;
-      height: 100px;
+      overflow: auto;
     }
 .column-right {
     margin-left:5px;
@@ -85,9 +85,9 @@
 }
 .info__profile{
     margin-top: 10px;
-    margin-bottom: 108px;
+    margin-bottom: 0px;
     margin-right: 100px;
-    margin-left: 20px; 
+    margin-left: 30px; 
     padding: 10px;
     background-color: lightgrey;
     width: 455px;
@@ -95,8 +95,9 @@
     padding-right: 15px;
 }
 .profile{
-    margin-top: 10px
-
+    margin-top: 10px;
+    text-align: left;
+    line-height: 20px;
 }
 .experience__list{
     margin-left: 30px;
@@ -130,6 +131,7 @@
 
 .portfolio__list{
     margin-left: 30px;
+    
 }
 
 
