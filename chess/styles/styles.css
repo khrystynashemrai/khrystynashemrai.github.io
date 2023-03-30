@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    margin-left:350px;
+ }
+table,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    border-spacing: 15px;
+    height: 100px;
+    width: 100px;
+    
+}
+tr, td{
+    padding: 30px;
+    height: 100px;
+    width: 100px;
+}
+td{
+    font-size: 35px;
+}
+
+div {
+  display: inline-block;
+}
