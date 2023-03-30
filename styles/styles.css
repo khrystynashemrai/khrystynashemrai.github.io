@@ -106,7 +106,7 @@
 .languages__list{
     margin-left: 30px;
 }
-.experience__item,.education__item,.languages__item{
+.experience__item,.education__item,.languages__item,.portfolio__item{
     margin-top:10px;
 }
 .info__profile,.info__education,.info__languages,.info__experience,.info__portfolio{
@@ -128,19 +128,11 @@
 }
 .portfolio{
     margin-top: 10px;
+    margin-left: 20px;
+}
+.portfolio__list{
     margin-left: 30px;
 }
-.info__portfolio{
-    display: block;
-    margin-left: 30px;
-    width: 130px;
-    height: 30px;
-    line-height: 10px;
-    border:1px solid #000;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    border-radius: 5px;
-}
+
 
 
