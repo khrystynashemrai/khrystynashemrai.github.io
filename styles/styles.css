@@ -76,17 +76,17 @@
 .column-left {
       float: left;
       width: 40%;
-      overflow: hidden;
+      overflow: auto;
     }
 .column-right {
     margin-left:5px;
       width: 60%;
-      overflow: hidden;
+      overflow: auto;
       background-color: lightgrey;
 }
 .info__profile{
     margin-top: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     margin-right: 100px;
     margin-left: 30px; 
     padding: 10px;
