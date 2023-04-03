@@ -21,6 +21,7 @@
     width: 200px;
     margin-top: 50px;
     margin-left: 58px;
+    border-radius: 25px;
 }
 .info__name{
     margin-top: 25px;
@@ -44,6 +45,7 @@
     background-color: lightgrey;
     width: 255px;
     color: black;
+    border-radius: 25px;
 }
 .skills,.hobbies,.social-media{
     color: white;
