@@ -3,32 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .container{
     width: 800px;
     height: 1000px;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
+
 .info{
     background-color: grey;
 }
+
 .image-wrapper{
     display: flex;
 /*    justify-content: center;
     padding: 25px; */
 }
+
 .image{
     width: 200px;
     margin-top: 50px;
     margin-left: 58px;
     border-radius: 25px;
 }
+
 .info__name{
     margin-top: 25px;
     font-size: 25px;
     margin-left: 60px;
     color: white;
 }
+
 .info__job{
     margin-top: 10px;
     margin-left: 93px;
@@ -38,6 +43,7 @@
    margin-top: 10px;
    margin-left: 25px;
 }
+
 .info__item{
     margin-top: 10px;
     margin-left: 33px; 
@@ -47,6 +53,7 @@
     color: black;
     border-radius: 25px;
 }
+
 .skills,.hobbies,.social-media{
     color: white;
     padding: 10px;
@@ -57,19 +64,24 @@
     font-size: 20px;
     margin-left: 15px; 
 }
+
 .skills__list{
    margin-left: 50px;
 }
+
 .hobbies__list{
     margin-left: 50px;
 }
+
 .hobbies__item,.skills__item{
     margin-top:10px;
 }
+
 .social-media__icons{
     margin-top: 10px;
     margin-left: 55px;
 }
+
 .social-media__icon{
     margin-left: 20px;
     margin-bottom: 10px;
@@ -79,16 +91,18 @@
       float: left;
       width: 40%;
       overflow: auto;
-    }
+}
+
 .column-right {
     margin-left:5px;
       width: 60%;
       overflow: auto;
       background-color: lightgrey;
 }
+
 .info__profile{
     margin-top: 10px;
-    margin-bottom: 210px;
+    margin-bottom: 220px;
     margin-right: 100px;
     margin-left: 30px; 
     padding: 10px;
