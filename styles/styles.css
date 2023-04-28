@@ -125,7 +125,7 @@
 .languages__list{
     margin-left: 30px;
 }
-.experience__item,.education__item,.languages__item,.portfolio__item{
+.experience__item,.education__item,.languages__item,.portfolio__item, .project__item{
     margin-top:10px;
 }
 .info__profile,.info__education,.info__languages,.info__experience,.info__portfolio{
