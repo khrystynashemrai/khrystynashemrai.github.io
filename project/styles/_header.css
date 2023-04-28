@@ -1,0 +1,113 @@
+.page-header{
+	min-height: 100vh;
+	background-color: #FFFFFF;
+}
+
+.top-bar {
+	padding-top: 15px;
+}
+
+.logo-img {
+	margin-top: 21px;
+}
+
+.logo-title {
+	margin-top: 28px;
+	font-family: Raleway;
+	font-size: 35px;
+	font-weight: 900;
+	line-height: 41px;
+	letter-spacing: 0px;
+	text-align: left;
+
+}
+
+.menu-icon {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.menu-icon i {
+	font-size: 2rem;
+}
+
+.menu-mobile{
+	position: relative;
+}
+
+.burger-menu {
+	position: absolute;
+	right: 0;
+	top: -9999px;
+	line-height: 35px;
+	margin-right: 25px;
+}
+
+.show-menu {
+	top: 50px;
+}
+
+ .main-menu li{
+ 	margin-bottom: 20px;
+ 	list-style-type: none;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ }
+
+ .menu-desktop{
+ 	display: none;
+ }
+
+
+ @media (min-width: 1440px){
+ 	.top-bar .content-wrap{
+ 		align-items: center;
+ 	}
+
+ 	.menu-mobile{
+ 		display: none;
+ 	}
+
+ 	.menu-desktop .r-side{
+	display: none !important;
+	}
+
+ 	.menu-desktop{
+ 		display: block;
+ 	}
+
+ 	.menu-desktop .main-menu{
+ 		display: flex;
+		font-size: 17px;
+		font-weight: 800;
+		line-height: 20px;
+		letter-spacing: 1.274999976158142px;
+ 		margin-top: 38px;
+ 		color: #000000;
+ 	}
+
+ 	.menu-desktop .main-menu a{
+ 		text-decoration: none;
+ 		color: inherit;
+ 	}
+
+ 	.menu-desktop .main-menu li{
+ 		text-align: center;
+		margin-right: 38px;
+		border-bottom: 5px solid;
+		width: 110px;
+		border-color: #4BA87D;
+	}
+
+	.btn__sign{
+	position: absolute;
+    width: 168px;
+    height: 41px;
+    border: 1px solid;
+    background-color: #4BA87D;
+    color: white;
+}
+
+ }
