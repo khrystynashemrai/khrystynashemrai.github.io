@@ -1,5 +1,4 @@
-@import url("_variables.css");
-@import url("_header.css");
+@import url("styles.css");
 
 .page-header{
 	flex-direction: column;
