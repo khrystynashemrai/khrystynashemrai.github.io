@@ -220,7 +220,7 @@ body {
 }
  .img_e{
     position: relative;
-    top: -483px;
+    top: -485px;
     left: 800px;
 }
 
@@ -332,8 +332,8 @@ body {
     position: absolute;
     width: 500px;
     height: 124px;
-    left: 400px;
-    top: 679px;
+    left: 350px;
+    top: 575px;
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 900;
@@ -343,5 +343,150 @@ body {
     color: #000000;
 }
 
-@media (max-width: 768px) 
-@media (min-width: 1200px)
+.all-section .text{
+    position: absolute;
+    top: 510px;
+    left: 260px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+/* identical to box height, or 119% */
+
+letter-spacing: 1.05px;
+
+color: #4BA87D;
+}
+
+.form{
+    position: relative;
+    top: -290px;
+    left: 220px;
+}
+
+.form_label{
+    position: absolute;
+    z-index: 1;
+    left: 100px;
+    width: 176px;
+height: 25px;
+left: 25px;
+top: 19px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+/* identical to box height, or 119% */
+
+letter-spacing: 1.05px;
+width: 200px;
+height: 25px;
+color: #000000;
+}
+
+.form_input{
+    width: 420px;
+    height: 56px;
+}
+
+.form_button{
+    position: relative;
+    width: 221px;
+    height: 65px;
+    left: 680px;
+    top: -350px;
+    border-color: #4BA87D ;
+    background: #4BA87D;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1.05px;
+    color: #FFFFFF;
+}
+.logo-imgs1{
+    position: absolute;
+    left: 100px;
+    bottom: -25px;
+}
+
+.logo-imgs2{
+    position: absolute;
+    left: 350px;
+    bottom: -25px;
+}
+
+.logo-imgs3{
+    position: absolute;
+    left: 550px;
+    bottom: -25px;
+}
+
+.logo-imgs4{
+    position: absolute;
+    left: 750px;
+    bottom: -25px;
+}
+
+.logo-imgs5{
+    position: absolute;
+    left: 950px;
+    bottom: -25px;
+}
+
+.get-section{
+    position: relative;
+    height: 366px;
+    width: 1200px;
+    top: 100px;
+    left: 190px;
+    background: #4BA87D;
+}
+
+.get-section .title{
+    position: absolute;
+width: 944px;
+height: 124px;
+left: calc(50% - 944px/2);
+top: 82px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 80px;
+/* or 133% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.pick_button{
+    position: absolute;
+width: 200px;
+height: 65px;
+left: calc(50% - 200px/2);
+top: 200px;
+
+background: #FFFFFF;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 900;
+font-size: 21px;
+line-height: 25px;
+/* identical to box height, or 119% */
+
+text-align: center;
+letter-spacing: 1.05px;
+border-color: #4BA87D;
+
+color: #4BA87D;
+}

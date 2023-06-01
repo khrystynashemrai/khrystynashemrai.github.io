@@ -1,0 +1,52 @@
+.footer-section{
+	position: relative;
+    height: 366px;
+    width: 1200px;
+    top: 100px;
+    left: 190px;
+}
+
+.menu {
+	position: absolute;
+	width: 80px;
+	height: 22px;
+	right: 483px;
+	top: 50px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 22px;
+	color: #000000;
+	list-style: none;
+}
+
+.list {
+	position: absolute;
+	width: 118px;
+	height: 22px;
+	right: 342px;
+	top: 50px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 22px;
+	color: #000000;
+	list-style: none;
+}
+
+.social {
+	position: absolute;
+	width: 118px;
+	height: 22px;
+	right: 175px;
+	top: 50px;
+	list-style: none;
+	text-decoration-line: none;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 22px;
+}
